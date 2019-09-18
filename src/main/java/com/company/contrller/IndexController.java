@@ -11,6 +11,7 @@ public class IndexController {
     public String index(){
         return "index";
     }
+
     @RequestMapping(path = {"/profile/{userid}"})
     @ResponseBody
     public String profile(@PathVariable("userid") int userid){
