@@ -10,6 +10,17 @@ public class Question {
     private int userId;
     private int commentCount;
 
+    public Question() {
+    }
+
+    public Question(int id, String title, String content, Date createDate, int commentCount) {
+        this.id = id;
+        this.title = title;
+        this.content = content;
+        this.createDate = createDate;
+        this.commentCount = commentCount;
+    }
+
     public int getId() {
         return id;
     }

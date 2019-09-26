@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7393c46a-6699-4f9f-84df-0158a11dd2fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/QuestionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com.company.dao/QuestionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com.company.dao/UserDao.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/company/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/contrller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/contrller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/QuestionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/QuestionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com.company.dao/QuestionDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com.company.dao/QuestionDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/QuestionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/QuestionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/AppTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +35,8 @@
         <option value="Interface" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -77,13 +80,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.company" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.company.dao" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_workspace\QA\src\main\resources\com.company.dao" />
+      <recent name="E:\idea_workspace\QA\src\main\java\com\company\model" />
       <recent name="E:\idea_workspace\QA\src\main\resources" />
       <recent name="E:\idea_workspace\QA\src\main\resources\templates" />
       <recent name="E:\idea_workspace\QA\src\main\resources\static" />
@@ -101,8 +106,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.main">
-    <configuration name="AppTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AppTest.selectQuestion">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +117,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
-      <option name="METHOD_NAME" value="insertTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +132,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
-      <option name="METHOD_NAME" value="main" />
+      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testIN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.question" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA" />
       <extension name="coverage">
         <pattern>
@@ -144,13 +148,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
-      <option name="METHOD_NAME" value="testIN" />
+      <option name="METHOD_NAME" value="question" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.selectQuestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA" />
       <extension name="coverage">
         <pattern>
@@ -158,17 +162,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.App" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
+      <option name="METHOD_NAME" value="selectQuestion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.user" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
+      <option name="METHOD_NAME" value="user" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.main" />
-        <item itemvalue="JUnit.AppTest.testIN" />
-        <item itemvalue="Spring Boot.App" />
-        <item itemvalue="JUnit.AppTest.insertTest" />
+        <item itemvalue="JUnit.AppTest.selectQuestion" />
+        <item itemvalue="JUnit.AppTest.question" />
+        <item itemvalue="JUnit.AppTest.user" />
+        <item itemvalue="JUnit.AppTest.contextLoads (1)" />
+        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +208,9 @@
       <updated>1568770338609</updated>
       <workItem from="1568770345124" duration="1867000" />
       <workItem from="1568790066216" duration="2850000" />
-      <workItem from="1568797811701" duration="7052000" />
+      <workItem from="1568797811701" duration="7361000" />
+      <workItem from="1568898611483" duration="9860000" />
+      <workItem from="1569201999727" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1568798096019</created>
@@ -193,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568798096019</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1568806943145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568806943145</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
